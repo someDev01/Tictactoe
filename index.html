@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style.css"/>
+    <title>Tictactoe</title>
+</head>
+<body>
+    <div class="win-window"><p></p></div>
+    <div class="form">
+        <p class="title">Крестики-Нолики</p>
+        <div class="switch-mode">
+            <label>
+                <input type="radio" name="mode" value="2"/>
+                игрок vs игрок
+            </label>
+            <label>
+                <input type="radio" name="mode" value="1"/>
+                игрок vs компьютер
+            </label>
+        </div>
+        <div class="panel"></div>
+        <div class="table" id="tictactoe"></div>
+        <button class="button-again">
+            <p>Очистить поле</p>
+        </button>
+    </div>
+    <script type="module" src="/src/script.js"></script>
+</body> 
+</html>
